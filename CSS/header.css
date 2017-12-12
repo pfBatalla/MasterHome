@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.clearfix {
+    clear: both;
+}
+p {
+    margin-bottom: 20px;
+}
+header {
+    position: relative;
+    width: 100%;
+    background-color: white;
+}
+header ul{
+    list-style: none;
+}
+#slogan {
+    padding-top: 50px;
+    width: 500px;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+#fila {
+    width: 385px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo {
+    float: left;
+    width: 60px;
+    margin-top: 2.5px;
+}
+#slogan h1 {  
+    float: left;
+    font-size: 50px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+#slogan p {
+    width: 400px;
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+header>ul {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+header>ul li {
+    font-family: Arial, sans-serif;
+
+}
+header>ul a {
+    color: rgb(34,34,34);
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+}
+header>ul a:hover {
+    color: rgb(36,178,191);
+}
+#menu {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(34,34,34);
+}
+#menu ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+#menu ul li a {
+    display: block; 
+    padding: 15px 40px 15px 40px;
+    color: #fff;
+    text-decoration: none;
+}
+#menu ul li a:hover {
+    color: rgb(36,178,191);
+}

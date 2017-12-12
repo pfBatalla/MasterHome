@@ -1,0 +1,62 @@
+p[id="botonFormulario"]{
+    text-align: center;
+}
+input[type=text]{
+    border: none;
+    border-bottom: 1px solid grey;
+}
+input[type=email]{
+    border: none;
+    border-bottom: 1px solid grey;
+}
+input[type=password]{
+    border: none;
+    border-bottom: 1px solid grey;
+}
+input[id=siguiente]{
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 24px;
+}
+input[id=siguiente]:hover{
+    background-color: cyan;
+    padding: 10px 24px;
+    border-radius: 12px;
+    box-shadow: 0 12px 13px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    right: -20px;
+    transition: 0.5s;
+}
+
+#inicioSesion label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+#loguearse{
+    text-align: center;
+}
+#inicioSesion{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px solid ;
+    background-color: rgba(82, 210, 241, 0.295);
+}
+#bienvenidoRegistro{
+    text-align: center;
+}
+small{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+#formularioContacto{
+    text-align: center;
+}
+#tablaContacto{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border: 1px solid ;
+    background-color: rgba(82, 210, 241, 0.295);
+}
