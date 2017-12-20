@@ -40,7 +40,7 @@ input[id=siguiente]:hover{
 #FormularioDatosInicio label{
     font-family: 'Verdana', serif;
 }
-#loguearse{
+#loguearse, #formularioContacto{
     text-align: center;
 }
 #inicioSesion{
@@ -50,6 +50,16 @@ input[id=siguiente]:hover{
     padding: auto;
     background-color: rgba(82, 210, 241, 0.295);
 }
+#tablaContacto{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+}
+#tablaContacto td{
+    text-align: left;
+}
+
 #bienvenidoRegistro{
     text-align: center;
 }

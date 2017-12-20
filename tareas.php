@@ -14,5 +14,9 @@ echo "</header>";
 echo "<br>";
 echo "<body>";
 ?>
+<?php
+	include('footer.php');
+	pie();
+?>
 </body>
 </html>

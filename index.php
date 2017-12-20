@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<link rel="shortcut icon" type="image/x-icon" href="LogoMH.png">
+		<link rel="shortcut icon" type="image/x-icon" href="ICONS/iconMH.png">
         <title>Inicio- MasterHome</title>
 	</head>
     <?php
@@ -40,8 +40,11 @@
 			</div>			
 		</section>
 		
-		<footer>
-			
-		</footer>
+		<div class="clearfix"></div>
+		
+		<?php
+		include('footer.php');
+			pie();
+		?>
 	</body>
 </html>

@@ -22,6 +22,11 @@
                 <br>
                     <table align="center" >
                         <tr>
+                            <td><p align="right">Intoduce el nombre de la familia: </p></td>
+                            <td width="10px"></td>
+                            <td> <input type="text" name="tablaFamilia" placeholder="apelliPadeApelliMadre" value=""></td>
+                        </tr>
+                        <tr>
                             <td width="300px"><p align="right">Cuantas personas viven en la casa: <font color="red">*</font></p></td>
                             <td width="10px"></td>
                             <td width="300px"><input type="radio" name="miembros" value="1" checked>2 miembros<br>
@@ -44,6 +49,7 @@
             </div>
         <?php
         }else if( (isset($_POST['introduceNombres'])) && (!isset($_POST['finalizar'])) ){
+            $_SESSION["tablaFamilia"] = $_POST["tablaFamilia"];
         ?>
                 <div id="Formulario2IntroduceDatos" align="center">
                 <form id="miembros" action="<?php $_SERVER['PHP_SELF'] ?>"  method="POST">
@@ -315,7 +321,6 @@
                                                         <option name="trabajaMiembro<?php echo $i;?>" value="En casa">En casa</option> 
                                 </tr>
                             </table>
-                        
                                 <?php    
                                 }
                                 ?>
@@ -331,9 +336,13 @@
                             break;
                     }
                 }else{
-                    echo "HOLAAAA";
+                    
+                    header('Location: registro.php');
                 }
         ?>
-        
+        <?php
+		include('footer.php');
+			pie();
+		?>
         </body>
 </html>

@@ -18,7 +18,7 @@ function pie(){
 		</div>
 		<div id="footer-text">
 			<strong><p id="copyright">Copyright</p></strong>
-			<p>Init DAW &copy; 2017 <a href="#">Privacy Policy</a></p>
+			<p>IniDAW &copy; 2017 <a href="#">Privacy Policy</a></p>
 		</div>
 	<footer>
 <?php

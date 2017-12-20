@@ -82,5 +82,9 @@
 		
 	}
 ?>
+<?php
+	include('footer.php');
+	pie();
+?>
 </body>
 </html>

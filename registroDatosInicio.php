@@ -92,12 +92,16 @@
         </div>
         <?php 
         }else{
-            header('Location: registroFamiliares.php');
             $_SESSION['nombre'] = $_POST['nombreUsuario'];
             $_SESSION['contrasenya'] = $_POST['contrasenya'];
+            header('Location: registroFamiliares.php');
+            
         }
-    
-        
         ?>
+        
+        <?php
+		include('footer.php');
+			pie();
+		?>
     </body>
 <html>

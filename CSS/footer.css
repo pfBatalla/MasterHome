@@ -4,11 +4,15 @@
 
 footer{
 	background-color: #39464f;
-	padding-bottom: 60px;
-	padding-top: 60px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
 }
 
 #social a{
+	
 	margin-left: 12px;
 	margin-right: 13px;
 	color: #fff;
@@ -16,7 +20,7 @@ footer{
 }
 
 #social a:hover{
-	color: #3bb375;
+	color: aqua;
 }
 
 #footer-text p{
